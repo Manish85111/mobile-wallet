@@ -1,9 +1,5 @@
-/**
- * @format
- */
+import icons from "./icons";
+import images from "./images";
+import theme, { COLORS, SIZES, FONTS } from "./theme";
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export { icons, images, theme, COLORS, SIZES, FONTS };
